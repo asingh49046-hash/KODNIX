@@ -1,0 +1,7 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');if(menu)menu.onclick=()=>links.classList.toggle('show');
+window.addEventListener('load',()=>setTimeout(()=>document.querySelector('.loader')?.classList.add('hide'),650));
+const counters=document.querySelectorAll('[data-count]');let started=false;function runCounters(){if(started)return;const top=document.querySelector('.stats')?.getBoundingClientRect().top||999;if(top<innerHeight-80){started=true;counters.forEach(el=>{let end=+el.dataset.count,i=0,step=Math.max(1,Math.floor(end/70));let t=setInterval(()=>{i+=step;if(i>=end){i=end;clearInterval(t)}el.textContent=i+'+'},22)})}}addEventListener('scroll',runCounters);runCounters();
+document.querySelectorAll('.faq-item').forEach(item=>item.querySelector('.faq-q')?.addEventListener('click',()=>item.classList.toggle('active')));
+addEventListener('scroll',()=>{const h=document.documentElement;const p=(h.scrollTop)/(h.scrollHeight-h.clientHeight)*100;document.querySelector('.progress').style.width=p+'%'});
+const glow=document.querySelector('.glow');addEventListener('mousemove',e=>{if(glow){glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'}});
+function sendWhatsApp(){const name=document.querySelector('#name')?.value||'';const type=document.querySelector('#type')?.value||'Website';const msg=document.querySelector('#message')?.value||'';const text=`Hello Kodnix, I need a ${type}. Name: ${name}. Requirement: ${msg}`;window.open(`https://wa.me/917352329117?text=${encodeURIComponent(text)}`,'_blank')}
