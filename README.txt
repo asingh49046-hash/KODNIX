@@ -1,14 +1,6 @@
 KODNIX Hosting Fixed Version
 
-Issue fixed: CSS/JS paths were not loading after hosting.
-
-How to host on GitHub/Vercel:
-1. Extract this ZIP.
-2. Upload ONLY the files inside the kodnix-hosting-fixed folder to GitHub.
-3. index.html, style.css, script.js must be in the same root folder.
-4. Do not upload an extra parent folder only.
-5. Deploy that GitHub repo on Vercel.
-
-Contact added:
-Mo: 7352329117
-Email: info@kodnix.com
+This version uses inline CSS inside every HTML file, so hosting cannot break because of missing CSS/JS paths.
+Upload all files directly to the root of your GitHub repository, not inside another folder.
+Then deploy on Vercel.
+Contact: 7352329117 | info@kodnix.com
