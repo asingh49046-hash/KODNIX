@@ -1,24 +1,29 @@
-KODNIX FINAL PREMIUM WEB DEVELOPMENT WEBSITE
+KODNIX Website - Run Guide
 
-Folder Structure:
-- index.html
-- services.html
-- portfolio.html
-- pricing.html
-- about.html
-- blog.html
-- faq.html
-- contact.html
-- privacy.html, terms.html, refund.html
-- assets/css/style.css
-- assets/js/main.js
-- assets/images/kodnix-logo-clean.png
+1. ZIP extract karo.
+2. Folder ke andar index.html par double click karo.
+3. Pages: index.html, about.html, services.html, projects.html, pricing.html, blog.html, contact.html
+4. CSS: css/style.css
+5. JS: js/main.js
+6. Contact details already added:
+   Mobile: 7352329117
+   Email: info@kodnix.com
+7. WhatsApp form contact.html me submit karne par WhatsApp open karega.
+8. Hosting on GitHub/Vercel:
+   - Repository create karo
+   - Sare files upload karo
+   - Vercel me repo import karo
+   - Deploy click karo
 
-How to run:
-1. Extract ZIP file.
-2. Open index.html in Chrome.
-3. To edit content, open HTML files in VS Code.
-4. Replace WhatsApp number in assets/js/main.js and footer links in HTML files.
-5. For hosting on Vercel/Netlify, upload this full folder.
+Important:
+- Project screenshots ko projects.html me replace karna.
+- Pricing ko apne according edit karna.
+- Legal pages ko real business policy ke according update karna.
 
-Note: Gemini watermark is removed by using a clean cropped logo image.
+
+PROJECT LINKS ADDED:
+- Parinay Watika: https://parinay-watika.vercel.app/
+- Raja Furniture: https://raja-furniture.vercel.app/
+- Kodnix: https://kodnix.vercel.app/
+- TypeX Pro: https://typex-pro.vercel.app/
+Note: SecurePass link is kept as # because its live URL was not provided. Replace it in projects.html when available.
